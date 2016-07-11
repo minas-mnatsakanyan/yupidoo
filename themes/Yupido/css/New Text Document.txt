@@ -1,0 +1,57 @@
+.navbar-toggle .icon-bar {
+
+  background-color: white;
+}
+.container{
+	background-color: #EE2E24;
+}
+.navbar-header a, .navbar-nav a{
+color:white !important;
+}
+
+
+.container {
+  width: 100% !important;
+
+}
+
+.nav>li>a:hover{text-decoration:none;background-color:red}
+.fl_none{
+width: 14.285%;
+  min-width: 131px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 !important;
+  background-image: url(cards.png);
+  background-size: 1715px;
+  height: 185px;
+}
+.col-md-12 p{
+	text-align: center;
+}
+.btn_submit{
+	padding: 60px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.btn_random{
+	padding: 60px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+@media (min-width: 768px){
+	 .hidden_text{
+		display:none;
+	}
+}
+
+@media (max-width: 768px){
+	 .hidden_text{
+		display: inline;
+		  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		  font-size: 14px;
+		  line-height: 23px;
+		  vertical-align: top;
+	}
+}
